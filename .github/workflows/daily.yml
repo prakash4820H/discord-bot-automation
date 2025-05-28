@@ -2,7 +2,7 @@ name: Daily Discord Commands
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs once a day at midnight UTC
+    - cron: "30 9 * * *" # Runs at 9:30 AM UTC (3:00 PM IST) every day
   workflow_dispatch: # Also allows manual triggering
 
 jobs:
